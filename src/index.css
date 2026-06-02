@@ -1,0 +1,35 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: max(884px, 100dvh);
+  background-color: #0a0a0a;
+  color: #e5e2e1;
+  scroll-behavior: smooth;
+}
+
+#root {
+  min-height: 100dvh;
+}
+
+.glass {
+  background: rgba(17, 17, 17, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.glow-hover:hover {
+  box-shadow: 0 0 25px rgba(0, 242, 254, 0.2);
+  border-color: rgba(0, 242, 254, 0.3);
+  transform: translateY(-4px);
+}
+
+.glow-text {
+  text-shadow: 0 0 10px rgba(0, 242, 254, 0.5);
+}
+
+.node-line {
+  background: linear-gradient(to bottom, #1f2937 0%, transparent 100%);
+}
